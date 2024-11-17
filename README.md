@@ -1,8 +1,8 @@
 Data Projects (TripleTen)
-# Project_9_TT  Machine learning in Business.
+### Project_9_TT  Machine learning in Business.
 
 
-PROJECT-9: Optimizing Oil Well Placement: A Predictive Analysis of Profits and Risks for OilyGiant Mining Company
+# PROJECT-9: Optimizing Oil Well Placement: A Predictive Analysis of Profits and Risks for OilyGiant Mining Company
 
 ## Project Description
 
