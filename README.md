@@ -59,8 +59,8 @@ Each dataset contains 500 data points, with the objective of selecting the best 
 
 To run this project, you need the following Python libraries:
 
-- pandas: For data manipulation and analysis.
-- numpy: For numerical operations.
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical operations.
 - **matplotlib**: For visualizations and plotting results.
 - **scikit-learn**: For model training and evaluation.
 - **scipy**: For statistical calculations and bootstrapping.
