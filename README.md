@@ -1,10 +1,9 @@
 Data Projects (TripleTen)
-### Project_9_TT  Machine learning in Business.
+#### Project_9_TT  Machine learning in Business.
 
+## PROJECT-9: Optimizing Oil Well Placement: A Predictive Analysis of Profits and Risks for OilyGiant Mining Company
 
-# PROJECT-9: Optimizing Oil Well Placement: A Predictive Analysis of Profits and Risks for OilyGiant Mining Company
-
-## Project Description
+### Project Description
 
 In this project, we aim to help **OilyGiant Mining Company** find the best location for a new oil well. The company has geological data for three potential regions and needs a model to predict the volume of reserves in new wells, estimate profits, and evaluate the risk of losses. The goal is to identify the region with the highest potential profit and the lowest risk, ensuring that the risk of losses does not exceed 2.5%.
 
@@ -15,7 +14,7 @@ In this project, we aim to help **OilyGiant Mining Company** find the best locat
 4. **Risk Assessment**: We use **Bootstrapping** to assess the risks of losses (negative profits) for each region.
 5. **Recommendation**: Based on the predicted profits and risk evaluation, we recommend the best region for the development of new oil wells.
 
-## Data Description
+### Data Description
 
 The dataset includes geological exploration data for three regions. Each file contains details about the oil wells, including:
 
@@ -35,7 +34,7 @@ Each dataset contains 500 data points, with the objective of selecting the best 
 - **Development Budget**: $100 million for developing 200 wells.
 - **Risk Evaluation**: We only consider regions where the risk of losses (negative profit) is less than 2.5%. Among those, the region with the highest average profit is selected.
 
-## Project Workflow
+### Project Workflow
 
 1. **Data Preprocessing**:
     - Clean and prepare the datasets for analysis.
@@ -60,16 +59,20 @@ Each dataset contains 500 data points, with the objective of selecting the best 
 
 To run this project, you need the following Python libraries:
 
-- **pandas**: For data manipulation and analysis.
-- **numpy**: For numerical operations.
+- pandas: For data manipulation and analysis.
+- numpy: For numerical operations.
 - **matplotlib**: For visualizations and plotting results.
 - **scikit-learn**: For model training and evaluation.
 - **scipy**: For statistical calculations and bootstrapping.
 
-  Conclusion
+### Conclusion
+
+
 This project provides a predictive analysis that helps the OilyGiant Mining Company determine the optimal location for the development of new oil wells. By using Linear Regression to predict oil reserves and Bootstrapping to assess the risk of losses, we recommend the region that offers the highest expected profit and meets the company's risk tolerance criteria.
 
-Key Findings:
+### Key Findings:
+
+
 Region 1: Average profit = $4,259,385.27, Risk of losses = 6%
 Region 2: Average profit = $5,152,227.73, Risk of losses = 1%
 Region 3: Average profit = $4,259,385.27, Risk of losses = 6%
